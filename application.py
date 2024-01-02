@@ -42,12 +42,12 @@ def predict():
         max_prob = probabilities.max()
         threshold=0.75
         if max_prob < threshold:
-            predicted_language = ["Unknown"]
+            predicted_language = "Unknown"
         else:
             lang_idx = probabilities.argmax()
             predicted_language = le.inverse_transform([lang_idx])[0]
 
-    return render_template("main.html", pred="This word/sentence contains {} word(s).".format(predicted_language[0]))
+    return render_template("main.html", pred="This word/sentence contains {} word(s).".format(predicted_language))
 
 
 if __name__ =="__main__":
