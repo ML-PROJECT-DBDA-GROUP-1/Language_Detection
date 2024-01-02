@@ -1,0 +1,125 @@
+h5{
+	color:#a0e7e9;
+	font-size:40px;
+	text-align: center;
+}
+
+
+* {
+  outline:none;
+	border:none;
+	margin:0px;
+	padding:0px;
+	font-family:Courier, monospace;
+	background-image:url(https://e1.pxfuel.com/desktop-wallpaper/194/615/desktop-wallpaper-black-backgrounds-with-text-overlay-map-word-clouds-word-cloud-black.jpg)
+}
+body {
+	background:#333 url(https://e1.pxfuel.com/desktop-wallpaper/194/615/desktop-wallpaper-black-backgrounds-with-text-overlay-map-word-clouds-word-cloud-black.jpg) repeat;        
+}
+.paper {
+	color:#FFF;
+	font-size:50px;
+	font-weight:bold;
+}
+.margin {
+	margin-left:5px;
+	margin-bottom:20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+.text_area {
+	width:500px;
+	overflow:hidden;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:24px;
+	resize:none;
+	line-height:40px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:45px;
+	padding-bottom:34px;
+	background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+	background-repeat:repeat-y, repeat;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+.title {
+	background-color:transparent;
+	border-bottom:3px solid #FFF;
+	color:#FFF;
+	font-size:20px;
+	font-family:Courier, monospace;
+	height:28px;
+	font-weight:bold;
+	width:220px;
+}
+/* .button1 {
+	cursor:pointer;
+	margin-top:20px;
+	float:right;
+	height:40px;
+	padding-left:24px;
+	padding-right:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#FFF;
+	text-shadow: 0px -1px 0px #000000;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border-top:1px solid #FFF;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	background-color: #a0e7e9;
+	background-image:url(https://dabuttonfactory.com/button.png?t=Detect+&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=12&bgt=unicolored&bgc=75d4ef&be=1&bs=1&bc=569&shs=4&shc=444&sho=s);
+	background-repeat:repeat-x;
+} */
+
+.button {
+background:    #75d4ef;
+border:        1px solid #556699;
+border-radius: 12px;
+box-shadow:    0 4px #444444;
+padding:       20px 45px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 26px/1 "Open Sans", sans-serif;
+text-align:    center;
+float:         right; 
+
+} 
+
+.button:active {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+.button:focus {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+.wrapper {
+	width:700px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:24px;
+	margin-bottom:100px;
+}
+
+.predi {
+	color:#FFF;
+	font-size:30px;
+	text-align: center;
+}
