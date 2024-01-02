@@ -1,5 +1,6 @@
 
 # Language Identification using NLP
+Welcome to our Language Identification using NLP project! This tool helps you identify the language of a given text. Whether you have a snippet from a document or a mysterious message, our model can give you insights into the language it's written in.
 
 ## Overview
 
