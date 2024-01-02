@@ -44,7 +44,7 @@ def predict():
         max_prob = probabilities.max()
         threshold=0.75
         if max_prob < threshold:
-            predicted_language = "Unknown"
+            predicted_language = ["Unknown"]
         else:
             lang_idx = probabilities.argmax()
             predicted_language = le.inverse_transform([lang_idx])[0]
