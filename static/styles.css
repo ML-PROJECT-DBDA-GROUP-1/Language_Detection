@@ -1,10 +1,11 @@
+/* Styling for Heading 5 */
 h5{
 	color:#a0e7e9;
 	font-size:40px;
 	text-align: center;
 }
 
-
+/* Resetting default styles for all elements */
 * {
   outline:none;
 	border:none;
@@ -13,6 +14,7 @@ h5{
 	font-family:Courier, monospace;
 	background-image:url(https://e1.pxfuel.com/desktop-wallpaper/194/615/desktop-wallpaper-black-backgrounds-with-text-overlay-map-word-clouds-word-cloud-black.jpg)
 }
+/* Styling for the entire body */
 body {
 	background:#333 url(https://e1.pxfuel.com/desktop-wallpaper/194/615/desktop-wallpaper-black-backgrounds-with-text-overlay-map-word-clouds-word-cloud-black.jpg) repeat;        
 }
@@ -109,6 +111,7 @@ float:         right;
 	filter: alpha(opacity=80);
 	opacity: 0.8;
 }
+/* Styling for wrapper */
 .wrapper {
 	width:700px;
 	height:auto;
@@ -117,7 +120,7 @@ float:         right;
 	margin-top:24px;
 	margin-bottom:100px;
 }
-
+/* Styling for prediction text */
 .predi {
 	color:#FFF;
 	font-size:30px;
