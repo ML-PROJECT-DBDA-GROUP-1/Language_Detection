@@ -4,7 +4,6 @@ import sklearn
 import pickle
 import pandas as pd
 import re
-#from encoder import LabelEncoder
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 
@@ -38,7 +37,6 @@ def predict():
         dat = [text]
         # creating the vector
         x = cv.transform(dat).toarray()
-        #encoder = LabelEncoder()
         # prediction
         probabilities = model.predict_proba(x)
         max_prob = probabilities.max()
@@ -48,7 +46,6 @@ def predict():
         else:
             lang_idx = probabilities.argmax()
             predicted_language = le.inverse_transform([lang_idx])[0]
-            #return predicted_language
 
     return render_template("main.html", pred="This word/sentence contains {} word(s).".format(predicted_language[0]))
 
